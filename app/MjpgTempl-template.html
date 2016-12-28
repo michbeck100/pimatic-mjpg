@@ -1,0 +1,11 @@
+<script id="mjpg-template" type="text/template">
+    <li data-bind="attr: { id: id }" class="sortable no-header">
+      <div>
+          <label class="device-label" data-bind="text: name" />
+      </div>
+      <div>
+          <img style="width:100%" data-bind="attr:{src: cameraUrl}" /><br />
+      </div>
+      <span data-bind="text: ($data.error() ? $data.error() : '') " class="error"></span>
+    </li>
+</script>

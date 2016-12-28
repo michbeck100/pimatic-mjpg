@@ -1,0 +1,39 @@
+{
+    "name": "pimatic-mjpg",
+    "description": "pimatic plugin to show mjpg stream",
+    "author": "Michael Kotten (michbeck100 <michaelkotten@gmail.com>)",
+    "main": "mjpg",
+    "files": [
+        "mjpg.coffee",
+        "README.md",
+        "LICENSE",
+        "device-config-schema.coffee",
+        "mjpg-config-schema.coffee",
+        "app"
+    ],
+    "keywords": [
+        "pimatic",
+        "plugin",
+        "mjpeg",
+        "security",
+        "cctv",
+        "camera",
+        "surveillance",
+        "mjpg"
+    ],
+    "version": "0.0.1",
+    "homepage": "http://github.com/michbeck100/pimatic-mjpg",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/michbeck100/pimatic-mjpg.git"
+    },
+    "configSchema": "mjpg-config-schema.coffee",
+    "peerDependencies": {
+        "pimatic": "0.9.*"
+    },
+    "engines": {
+        "node": ">4.4.x",
+        "npm": ">2.15.x"
+    }
+}
