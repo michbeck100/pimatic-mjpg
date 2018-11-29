@@ -6,6 +6,9 @@
       <div>
           <img style="width:100%" data-bind="attr:{src: cameraUrl}" /><br />
       </div>
+      <canvas id="videoCanvas" width="100%">
+        You browser doesn't support the Canvas Tag. Please use Chrome, Firefox or Safari
+      </canvas>
       <span data-bind="text: ($data.error() ? $data.error() : '') " class="error"></span>
     </li>
 </script>

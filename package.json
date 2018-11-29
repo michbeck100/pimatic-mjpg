@@ -29,6 +29,11 @@
         "url": "git://github.com/michbeck100/pimatic-mjpg.git"
     },
     "configSchema": "mjpg-config-schema.coffee",
+    "dependencies": {
+        "node-rtsp-stream": "0.0.3",
+        "jsmpeg": "1.0.0"
+    },
+
     "peerDependencies": {
         "pimatic": "0.9.*"
     },
